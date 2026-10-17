@@ -77,10 +77,6 @@ erDiagram
         decimal ThanhTien
     }
 
----
-
-## 2. Mã SQL Tạo CSDL và Bảng (MySQL)
-
 CREATE DATABASE IF NOT EXISTS quan_ly_don_hang;
 USE quan_ly_don_hang;
 
@@ -91,7 +87,7 @@ CREATE TABLE KHAC_HANG (
     DiaChi VARCHAR(200),
     DienThoai VARCHAR(15)
 );
-
+```
 -- 2. Bảng Người đặt hàng
 CREATE TABLE NGUOI_DAT (
     MaSoND VARCHAR(20) PRIMARY KEY,
