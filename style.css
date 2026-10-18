@@ -1,0 +1,27 @@
+/* Custom CSS */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 56px; /* Bù khoảng trống cho Navbar Fixed-top */
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 56px;
+}
+
+.card {
+  transition: transform 0.3s ease, shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.social-links a {
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #0d6efd !important;
+}
