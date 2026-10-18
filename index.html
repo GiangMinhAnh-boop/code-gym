@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Giới Thiệu Sách - Book Landing Page</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"><i class="bi bi-book-half me-2"></i>BookLanding</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+            <li class="nav-item"><a class="nav-link" href="#author">Author</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#prices">Prices</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews">Reader's Say</a></li>
+            <li class="nav-item"><a class="btn btn-primary ms-lg-2" href="#download">Download</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BOOK OVERVIEW -->
+  <section id="overview" class="py-5 bg-light border-bottom">
+    <div class="container py-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1 class="display-4 fw-bold mb-3">Khám Phá Hành Trình Chinh Phục Lập Trình Web</h1>
+          <p class="lead text-muted mb-4">Cuốn sách cung cấp tư duy, lộ trình và kiến thức nền tảng vững chắc nhất về HTML, CSS và Bootstrap dành cho người mới bắt đầu.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="#download" class="btn btn-primary btn-lg px-4 me-md-2"><i class="bi bi-download me-2"></i>Tải Bản Đọc Thử</a>
+            <a href="#prices" class="btn btn-outline-secondary btn-lg px-4">Mua Ngay</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="https://via.placeholder.com/400x550?text=Book+Cover" class="img-fluid rounded shadow-lg" alt="Book Cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHOR -->
+  <section id="author" class="py-5">
+    <div class="container py-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 text-center">
+          <img src="https://via.placeholder.com/300x300?text=Author+Avatar" class="img-fluid rounded-circle shadow" alt="Author">
+        </div>
+        <div class="col-lg-7">
+          <h2 class="fw-bold mb-3">Tác Giả</h2>
+          <h4 class="text-primary mb-3">Giang Minh Anh</h4>
+          <p class="text-muted">Với hơn 10 năm kinh nghiệm trong lĩnh vực phát triển phần mềm và đào tạo lập trình, tác giả đã truyền cảm hứng cho hàng ngàn học viên bắt đầu sự nghiệp CNTT một cách dễ dàng và hiệu quả nhất.</p>
+          <p class="text-muted">Cuốn sách này là đúc kết từ những dự án thực tế và phương pháp học hiện đại giúp bạn làm chủ Frontend nhanh chóng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="py-5 bg-light">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Đặc Điểm Nổi Bật</h2>
+        <p class="text-muted">Những giá trị cốt lõi bạn nhận được từ cuốn sách này</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <div class="card h-100 p-4 border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-journal-code text-primary display-4 mb-3"></i>
+              <h5 class="card-title fw-bold">Thực Hành Thực Tế</h5>
+              <p class="card-text text-muted">Hơn 50+ bài tập và dự án thực tế giúp bạn củng cố kiến thức ngay sau mỗi chương.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card h-100 p-4 border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-phone text-primary display-4 mb-3"></i>
+              <h5 class="card-title fw-bold">Tối Ưu Responsive</h5>
+              <p class="card-text text-muted">Hướng dẫn chi tiết xây dựng giao diện tương thích với mọi thiết bị di động.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card h-100 p-4 border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-headset text-primary display-4 mb-3"></i>
+              <h5 class="card-title fw-bold">Hỗ Trợ 24/7</h5>
+              <p class="card-text text-muted">Tham gia cộng đồng người đọc để trao đổi, giải đáp thắc mắc trực tiếp với tác giả.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICES -->
+  <section id="prices" class="py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Bảng Giá Sách</h2>
+        <p class="text-muted">Lựa chọn phiên bản phù hợp nhất với nhu cầu của bạn</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- eBook -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 border-0 shadow-sm text-center">
+            <div class="card-header bg-white py-4">
+              <h4 class="fw-bold">E-Book</h4>
+              <h2 class="display-5 fw-bold text-primary my-3">199.000đ</h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled my-4 space-y-2">
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>File PDF / EPUB chất lượng cao</li>
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Toàn bộ Mã nguồn mẫu</li>
+                <li class="mb-2 text-muted"><i class="bi bi-x-circle me-2"></i>Sách in bìa mềm</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 pb-4">
+              <button class="btn btn-outline-primary w-100 py-2">Chọn Mua</button>
+            </div>
+          </div>
+        </div>
+        <!-- Hardcover -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 border-primary shadow text-center position-relative">
+            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary px-3 py-2">Phổ Biến Nhất</span>
+            <div class="card-header bg-white py-4 border-0">
+              <h4 class="fw-bold">Sách In + E-Book</h4>
+              <h2 class="display-5 fw-bold text-primary my-3">349.000đ</h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled my-4">
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Sách in bìa mềm cao cấp</li>
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Tặng kèm bản E-Book</li>
+                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Miễn phí vận chuyển toàn quốc</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0 pb-4">
+              <button class="btn btn-primary w-100 py-2">Chọn Mua</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section id="download" class="py-5 bg-primary text-white text-center">
+    <div class="container py-5">
+      <h2 class="display-5 fw-bold mb-3">Tải Bản Đọc Thử Miễn Phí</h2>
+      <p class="lead mb-4">Nhập email của bạn để nhận ngay 3 chương đầu tiên hoàn toàn miễn phí!</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form class="row g-2">
+            <div class="col-8">
+              <input type="email" class="form-control form-control-lg" placeholder="Nhập địa chỉ email của bạn..." required>
+            </div>
+            <div class="col-4">
+              <button type="submit" class="btn btn-dark btn-lg w-100">Gửi Ngay</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- READER'S SAY -->
+  <section id="reviews" class="py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Cảm Nhận Từ Độc Giả</h2>
+        <p class="text-muted">Nhận xét từ các học viên và lập trình viên đã đọc cuốn sách này</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm">
+            <div class="card-body">
+              <p class="card-text text-muted mb-4">"Cuốn sách trình bày cực kỳ dễ hiểu, hình ảnh trực quan và bài tập rất bám sát thực tế."</p>
+              <div class="d-flex align-items-center">
+                <img src="https://via.placeholder.com/50x50?text=U1" class="rounded-circle me-3" alt="User">
+                <div>
+                  <h6 class="fw-bold mb-0">Nguyễn Văn A</h6>
+                  <small class="text-muted">Frontend Developer</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm">
+            <div class="card-body">
+              <p class="card-text text-muted mb-4">"Nhờ cuốn sách này mà mình đã tự tay dựng được website cá nhân hoàn chỉnh chỉ sau 2 tuần học!"</p>
+              <div class="d-flex align-items-center">
+                <img src="https://via.placeholder.com/50x50?text=U2" class="rounded-circle me-3" alt="User">
+                <div>
+                  <h6 class="fw-bold mb-0">Trần Thị B</h6>
+                  <small class="text-muted">Sinh viên CNTT</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm">
+            <div class="card-body">
+              <p class="card-text text-muted mb-4">"Nội dung chuẩn hóa, bố cục rõ ràng. Rất đề xuất cho các bạn mới bắt đầu học Lập trình Web."</p>
+              <div class="d-flex align-items-center">
+                <img src="https://via.placeholder.com/50x50?text=U3" class="rounded-circle me-3" alt="User">
+                <div>
+                  <h6 class="fw-bold mb-0">Lê Hoàng C</h6>
+                  <small class="text-muted">UI/UX Designer</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white py-4 border-top border-secondary">
+    <div class="container text-center text-md-between d-md-flex align-items-center">
+      <p class="mb-2 mb-md-0">&copy; 2026 BookLanding. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-github fs-5"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.bundle.min.js"></script>
+</body>
+</html>
